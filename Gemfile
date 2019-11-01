@@ -60,3 +60,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Adds Testing Environment using RSPEC
+group :development, :test do
+  gem 'rspec-rails', '~> 3.8'
+end
+
+#jQuery
+gem 'jquery-rails'
+
+gem 'popper_js', '~> 1.14.5'
+gem 'bootstrap', '~> 4.3.1'
+gem 'tether-rails'
