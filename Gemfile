@@ -78,3 +78,9 @@ gem 'tether-rails'
 # SimpleForm
 gem 'simple_form'
 
+# User Authentication
+gem 'devise'
+
+# Rubocop static code analyzer and code formatter
+gem 'rubocop', '~> 0.76.0', require: false
+

@@ -10,5 +10,7 @@ class GamesController < ApplicationController
     redirect_to root_path
   end
 
+  def show
+  end
 
 end
